@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         FlooringInfoClip(idx: viewModel.idx)
-            .userActivity(NSUserActivityTypeBrowsingWeb) { activity in
+            .onContinueUserActivity(NSUserActivityTypeBrowsingWeb) { activity in
                 viewModel.handle(activity: activity)
             }
     }

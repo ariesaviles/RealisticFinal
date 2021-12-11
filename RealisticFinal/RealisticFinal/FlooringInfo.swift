@@ -154,7 +154,7 @@ struct FlooringInfo: View {
         .onAppear {
             settings.configureSettings(flooring: flooringInfo)
         }
-
+        .background( Color.offWhite.ignoresSafeArea())
     }
     
 }

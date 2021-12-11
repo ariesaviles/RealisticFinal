@@ -78,6 +78,10 @@
 		21EA149227649BCB00F66F5E /* CollisionLarge.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 21EA140C2764910F00F66F5E /* CollisionLarge.ahap */; };
 		21EA149327649BCB00F66F5E /* CollisionLarge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21EA140E2764910F00F66F5E /* CollisionLarge.wav */; };
 		21EA149527649C2E00F66F5E /* Texture-stoneclip.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 21EA149427649C2E00F66F5E /* Texture-stoneclip.ahap */; };
+		21EA149727649D0600F66F5E /* darkCarpetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA149627649D0600F66F5E /* darkCarpetView.swift */; };
+		21EA149827649DCE00F66F5E /* ParagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA13E9276490CA00F66F5E /* ParagonView.swift */; };
+		21EA149927649DE200F66F5E /* CalmSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA13FC276490F500F66F5E /* CalmSView.swift */; };
+		21EA149A27649E1500F66F5E /* ExpressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA13E0276490B800F66F5E /* ExpressionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +169,7 @@
 		21EA148727649BA600F66F5E /* stone-full.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stone-full.jpeg"; sourceTree = "<group>"; };
 		21EA148927649BAC00F66F5E /* easyfit-full.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "easyfit-full.jpeg"; sourceTree = "<group>"; };
 		21EA149427649C2E00F66F5E /* Texture-stoneclip.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Texture-stoneclip.ahap"; sourceTree = "<group>"; };
+		21EA149627649D0600F66F5E /* darkCarpetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = darkCarpetView.swift; path = Clip/darkCarpetView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +364,7 @@
 				21EA1467276493EB00F66F5E /* clipApp.swift */,
 				21EA1469276493EB00F66F5E /* ContentView.swift */,
 				21EA148227649B2D00F66F5E /* stoneView.swift */,
+				21EA149627649D0600F66F5E /* darkCarpetView.swift */,
 				21EA147A2764946100F66F5E /* Assets.xcassets */,
 				21EA1470276493ED00F66F5E /* Info.plist */,
 				21EA1471276493ED00F66F5E /* clip.entitlements */,
@@ -558,11 +564,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EA149A27649E1500F66F5E /* ExpressionView.swift in Sources */,
 				21EA146A276493EB00F66F5E /* ContentView.swift in Sources */,
 				21EA148127649B0400F66F5E /* Extensions.swift in Sources */,
+				21EA149827649DCE00F66F5E /* ParagonView.swift in Sources */,
 				21EA148327649B2D00F66F5E /* stoneView.swift in Sources */,
+				21EA149727649D0600F66F5E /* darkCarpetView.swift in Sources */,
 				21EA148027649AFE00F66F5E /* Flooring.swift in Sources */,
 				21EA147F27649A5F00F66F5E /* FlooringInfoClip.swift in Sources */,
+				21EA149927649DE200F66F5E /* CalmSView.swift in Sources */,
 				21EA1468276493EB00F66F5E /* clipApp.swift in Sources */,
 				21EA147D276495AE00F66F5E /* clipHelper.swift in Sources */,
 			);

@@ -23,7 +23,7 @@ struct FlooringInfoClip: View {
                         Text(MOCK_FLOORING[idx].name)
                             .font(.title)
                             .fontWeight(.bold)
-                        Text("Washington")
+                        Text(MOCK_FLOORING[idx].colorName)
                     }
                     Spacer()
                 }.padding(.bottom).padding(.top, 100)
@@ -33,8 +33,27 @@ struct FlooringInfoClip: View {
                         .fill(Color.offWhite)
                         .frame(width: 340, height: 500)
                         .softOuterShadow()
-                    StoneView().frame(width: 300, height: 400).offset(y: -30)
-                        .softOuterShadow()
+                    switch idx {
+                    case 0:
+                        darkCarpetView().frame(width: 300, height: 400).offset(y: -30)
+                            .softOuterShadow()
+                    case 1:
+                        ParagonView().frame(width: 300, height: 400).offset(y: -30)
+                            .softOuterShadow()
+                    case 2:
+                        CalmSView().frame(width: 300, height: 400).offset(y: -30)
+                            .softOuterShadow()
+                    case 3:
+                        ExpressionView().frame(width: 300, height: 400).offset(y: -30)
+                            .softOuterShadow()
+                    case 4:
+                        StoneView().frame(width: 300, height: 400).offset(y: -30)
+                            .softOuterShadow()
+                    default:
+                        darkCarpetView().frame(width: 300, height: 400).offset(y: -30)
+                            .softOuterShadow()
+                    }
+                    
                 }.frame(alignment: .center)
 
                 // BUTTOSNS
@@ -83,7 +102,8 @@ struct FlooringInfoClip: View {
             }
             .background( Color.offWhite.ignoresSafeArea())
             .offset(y: -100)
-        }
+            .padding(.top)
+        }.background( Color.offWhite.ignoresSafeArea())
 
 
     }
