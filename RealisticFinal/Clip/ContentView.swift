@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Clip
+//  clip
 //
 //  Created by Aries Aviles on 12/11/21.
 //
