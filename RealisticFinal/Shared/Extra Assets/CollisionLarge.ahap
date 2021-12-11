@@ -1,0 +1,62 @@
+{
+  "Version" : 1,
+  "Metadata" : {
+    "Description" : "Effect for the large ball colliding with a wall.",
+    "Created" : "1 June 2021",
+    "Project" : "HapticRicochet",
+    "Title" : "",
+    "Tags" : ""
+  },
+  "Pattern" : [
+    {
+      "Event" : {
+        "EventType" : "HapticTransient",
+        "EventParameters" : [
+          {
+            "ParameterID" : "HapticIntensity",
+            "ParameterValue" : 0.90700000524520874
+          },
+          {
+            "ParameterID" : "HapticSharpness",
+            "ParameterValue" : 0
+          }
+        ],
+        "Time" : 0
+      }
+    },
+    {
+      "Event" : {
+        "EventParameters" : [
+          {
+            "ParameterID" : "AudioVolume",
+            "ParameterValue" : 1
+          }
+        ],
+        "EventType" : "AudioCustom",
+        "Time" : 0,
+        "EventWaveformPath" : "CollisionLarge.wav"
+      }
+    },
+    {
+      "Event" : {
+        "EventParameters" : [
+          {
+            "ParameterID" : "HapticIntensity",
+            "ParameterValue" : 0.061999998986721039
+          },
+          {
+            "ParameterID" : "HapticSharpness",
+            "ParameterValue" : 0
+          },
+          {
+            "ParameterID" : "Sustained",
+            "ParameterValue" : 1
+          }
+        ],
+        "EventType" : "HapticContinuous",
+        "Time" : 0.002,
+        "EventDuration" : 0.031
+      }
+    }
+  ]
+}

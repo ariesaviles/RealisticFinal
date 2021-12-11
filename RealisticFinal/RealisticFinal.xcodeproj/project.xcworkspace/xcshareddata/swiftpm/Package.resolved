@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ExyteGrid",
+        "repositoryURL": "https://github.com/exyte/Grid",
+        "state": {
+          "branch": "master",
+          "revision": "a9b8e48897dcb2d27ba040bb33fa34bc2776f9f0",
+          "version": null
+        }
+      },
+      {
+        "package": "Neumorphic",
+        "repositoryURL": "https://github.com/costachung/neumorphic/",
+        "state": {
+          "branch": "master",
+          "revision": "3fa56e844a5e375ff3d38e3c770886bcc949f6f5",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
