@@ -21,7 +21,7 @@ struct FlooringInfo: View {
                 Image("ic_back") // set image here
                     .aspectRatio(contentMode: .fit)
                     .foregroundColor(.white)
-                    Text("Go back")
+//                    Text("Go back")
                 }
             }
         }
@@ -149,7 +149,7 @@ struct FlooringInfo: View {
             }
             .background( Color.offWhite.ignoresSafeArea())
             .offset(y: -150)
-        }.navigationBarBackButtonHidden(true)
+        }.navigationBarBackButtonHidden(false)
         .navigationBarItems(leading: btnBack)
         .onAppear {
             settings.configureSettings(flooring: flooringInfo)

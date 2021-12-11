@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = clipHelper()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        FlooringInfoClip(idx: viewModel.idx)
+            .userActivity(NSUserActivityTypeBrowsingWeb) { activity in
+                viewModel.handle(activity: activity)
+            }
     }
 }
 

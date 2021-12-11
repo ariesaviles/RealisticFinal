@@ -60,6 +60,24 @@
 		21EA146F276493ED00F66F5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EA146E276493ED00F66F5E /* Preview Assets.xcassets */; };
 		21EA1474276493ED00F66F5E /* clip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 21EA1465276493EB00F66F5E /* clip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		21EA147B2764946100F66F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EA147A2764946100F66F5E /* Assets.xcassets */; };
+		21EA147D276495AE00F66F5E /* clipHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA147C276495AE00F66F5E /* clipHelper.swift */; };
+		21EA147F27649A5F00F66F5E /* FlooringInfoClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA147E27649A5F00F66F5E /* FlooringInfoClip.swift */; };
+		21EA148027649AFE00F66F5E /* Flooring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA13D42764903900F66F5E /* Flooring.swift */; };
+		21EA148127649B0400F66F5E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA13D52764903900F66F5E /* Extensions.swift */; };
+		21EA148327649B2D00F66F5E /* stoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA148227649B2D00F66F5E /* stoneView.swift */; };
+		21EA148627649B5E00F66F5E /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = 21EA148527649B5E00F66F5E /* Neumorphic */; };
+		21EA148827649BA600F66F5E /* stone-full.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 21EA148727649BA600F66F5E /* stone-full.jpeg */; };
+		21EA148A27649BAC00F66F5E /* easyfit-full.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 21EA148927649BAC00F66F5E /* easyfit-full.jpeg */; };
+		21EA148B27649BCB00F66F5E /* Texture-solid.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 21EA14092764910F00F66F5E /* Texture-solid.ahap */; };
+		21EA148C27649BCB00F66F5E /* CollisionSmall.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 21EA14112764910F00F66F5E /* CollisionSmall.ahap */; };
+		21EA148D27649BCB00F66F5E /* Texture-stone.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 21EA140D2764910F00F66F5E /* Texture-stone.ahap */; };
+		21EA148E27649BCB00F66F5E /* Texture.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 21EA140B2764910F00F66F5E /* Texture.ahap */; };
+		21EA148F27649BCB00F66F5E /* Spawn.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 21EA140A2764910F00F66F5E /* Spawn.ahap */; };
+		21EA149027649BCB00F66F5E /* CollisionSmall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21EA14102764910F00F66F5E /* CollisionSmall.wav */; };
+		21EA149127649BCB00F66F5E /* Spawn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21EA140F2764910F00F66F5E /* Spawn.wav */; };
+		21EA149227649BCB00F66F5E /* CollisionLarge.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 21EA140C2764910F00F66F5E /* CollisionLarge.ahap */; };
+		21EA149327649BCB00F66F5E /* CollisionLarge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21EA140E2764910F00F66F5E /* CollisionLarge.wav */; };
+		21EA149527649C2E00F66F5E /* Texture-stoneclip.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 21EA149427649C2E00F66F5E /* Texture-stoneclip.ahap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +159,12 @@
 		21EA1470276493ED00F66F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21EA1471276493ED00F66F5E /* clip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = clip.entitlements; sourceTree = "<group>"; };
 		21EA147A2764946100F66F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		21EA147C276495AE00F66F5E /* clipHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = clipHelper.swift; path = Clip/clipHelper.swift; sourceTree = SOURCE_ROOT; };
+		21EA147E27649A5F00F66F5E /* FlooringInfoClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FlooringInfoClip.swift; path = Clip/FlooringInfoClip.swift; sourceTree = SOURCE_ROOT; };
+		21EA148227649B2D00F66F5E /* stoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = stoneView.swift; path = Clip/stoneView.swift; sourceTree = SOURCE_ROOT; };
+		21EA148727649BA600F66F5E /* stone-full.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stone-full.jpeg"; sourceTree = "<group>"; };
+		21EA148927649BAC00F66F5E /* easyfit-full.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "easyfit-full.jpeg"; sourceTree = "<group>"; };
+		21EA149427649C2E00F66F5E /* Texture-stoneclip.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Texture-stoneclip.ahap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +181,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EA148627649B5E00F66F5E /* Neumorphic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +195,7 @@
 				21EA137E27648D9600F66F5E /* RealisticFinal */,
 				21EA1466276493EB00F66F5E /* clip */,
 				21EA137D27648D9600F66F5E /* Products */,
+				21EA148427649B5E00F66F5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -276,6 +302,7 @@
 				21EA140F2764910F00F66F5E /* Spawn.wav */,
 				21EA14092764910F00F66F5E /* Texture-solid.ahap */,
 				21EA140D2764910F00F66F5E /* Texture-stone.ahap */,
+				21EA149427649C2E00F66F5E /* Texture-stoneclip.ahap */,
 				21EA140B2764910F00F66F5E /* Texture.ahap */,
 			);
 			path = "Extra Assets";
@@ -284,6 +311,7 @@
 		21EA14242764911700F66F5E /* carpet */ = {
 			isa = PBXGroup;
 			children = (
+				21EA148927649BAC00F66F5E /* easyfit-full.jpeg */,
 				21EA14262764912000F66F5E /* calmserenity-full.jpeg */,
 				21EA14252764912000F66F5E /* inspireddesign-full.jpeg */,
 				21EA14272764912000F66F5E /* subtleaura-full.jpg */,
@@ -315,6 +343,7 @@
 		21EA14452764914E00F66F5E /* tilestone */ = {
 			isa = PBXGroup;
 			children = (
+				21EA148727649BA600F66F5E /* stone-full.jpeg */,
 				21EA14472764915B00F66F5E /* grandstrands-full.jpeg */,
 				21EA14482764915B00F66F5E /* islander-full.jpeg */,
 				21EA14462764915B00F66F5E /* revivalmaria-full.jpeg */,
@@ -325,8 +354,11 @@
 		21EA1466276493EB00F66F5E /* clip */ = {
 			isa = PBXGroup;
 			children = (
+				21EA147E27649A5F00F66F5E /* FlooringInfoClip.swift */,
+				21EA147C276495AE00F66F5E /* clipHelper.swift */,
 				21EA1467276493EB00F66F5E /* clipApp.swift */,
 				21EA1469276493EB00F66F5E /* ContentView.swift */,
+				21EA148227649B2D00F66F5E /* stoneView.swift */,
 				21EA147A2764946100F66F5E /* Assets.xcassets */,
 				21EA1470276493ED00F66F5E /* Info.plist */,
 				21EA1471276493ED00F66F5E /* clip.entitlements */,
@@ -341,6 +373,13 @@
 				21EA146E276493ED00F66F5E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21EA148427649B5E00F66F5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +421,9 @@
 			dependencies = (
 			);
 			name = clip;
+			packageProductDependencies = (
+				21EA148527649B5E00F66F5E /* Neumorphic */,
+			);
 			productName = clip;
 			productReference = 21EA1465276493EB00F66F5E /* clip.app */;
 			productType = "com.apple.product-type.application.on-demand-install-capable";
@@ -463,8 +505,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EA148B27649BCB00F66F5E /* Texture-solid.ahap in Resources */,
+				21EA149527649C2E00F66F5E /* Texture-stoneclip.ahap in Resources */,
+				21EA148D27649BCB00F66F5E /* Texture-stone.ahap in Resources */,
 				21EA146F276493ED00F66F5E /* Preview Assets.xcassets in Resources */,
+				21EA149027649BCB00F66F5E /* CollisionSmall.wav in Resources */,
+				21EA148C27649BCB00F66F5E /* CollisionSmall.ahap in Resources */,
+				21EA148827649BA600F66F5E /* stone-full.jpeg in Resources */,
+				21EA149327649BCB00F66F5E /* CollisionLarge.wav in Resources */,
+				21EA148F27649BCB00F66F5E /* Spawn.ahap in Resources */,
+				21EA148E27649BCB00F66F5E /* Texture.ahap in Resources */,
+				21EA148A27649BAC00F66F5E /* easyfit-full.jpeg in Resources */,
 				21EA147B2764946100F66F5E /* Assets.xcassets in Resources */,
+				21EA149227649BCB00F66F5E /* CollisionLarge.ahap in Resources */,
+				21EA149127649BCB00F66F5E /* Spawn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +559,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				21EA146A276493EB00F66F5E /* ContentView.swift in Sources */,
+				21EA148127649B0400F66F5E /* Extensions.swift in Sources */,
+				21EA148327649B2D00F66F5E /* stoneView.swift in Sources */,
+				21EA148027649AFE00F66F5E /* Flooring.swift in Sources */,
+				21EA147F27649A5F00F66F5E /* FlooringInfoClip.swift in Sources */,
 				21EA1468276493EB00F66F5E /* clipApp.swift in Sources */,
+				21EA147D276495AE00F66F5E /* clipHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,6 +880,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 21EA13A827648EBD00F66F5E /* XCRemoteSwiftPackageReference "Grid" */;
 			productName = ExyteGrid;
+		};
+		21EA148527649B5E00F66F5E /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21EA13A527648EB400F66F5E /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
